@@ -1,0 +1,21 @@
+Sublime Text 3
+   安装Package Contral        view->show console   粘贴 https://packagecontrol.io/installation#st3 
+   Install Package :   SideBarEnhancements 
+                       AutoPEP8     (CTRL+SHIFT+8)
+                       Anaconda  
+                                
+   Anaconda 的配置：
+            Setting-delfault   
+                  "python_interpreter": "C:/Python36/python.exe"    (95行上下)
+            setting-user
+                  {"python_interpreter": "C:/Python36/python.exe",  
+                  "complete_parameters": true ,
+                  "complete_parameters": true ,  
+                  "complete_parameters": true}
+             Sublime Text 3\Packages\Python.sublime-settings   (配置python的.触发补全机制)  
+                   {
+                    "auto_complete_triggers":  [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}]
+                   }
+   
+
+                     
